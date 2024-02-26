@@ -1,0 +1,65 @@
+.nav-bar .header {
+  font-size: 23px;
+  font-weight: bold;
+}
+.nav-bar .nav-link {
+  color: black;
+  font-size: 17px;
+  transition: 0.3s color ease-out;
+}
+.nav-bar .nav-link:hover {
+  color: #3cb2e0;
+}
+.about-section .info {
+  width: 700px;
+  height: 700px;
+}
+.about-section .info .box {
+  width: 60%;
+  margin-top: 50%;
+  color: #ffff;
+}
+.about-section .info .box .btn {
+  padding: 10px 5px;
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
+  background-color: #767778;
+  transition: 0.3s background-color ease-out;
+}
+.about-section .info .box .btn:hover {
+  background-color: white;
+}
+.about-section .info .box .btn:hover .contact-link {
+  color: #767778;
+}
+.about-section .info .box .btn .contact-link {
+  color: white;
+}
+.about-section .image {
+  width: 40%;
+  margin-left: 90%;
+  margin-top: -39%;
+}
+.about-section .image img {
+  max-width: 100%;
+}
+.intro-section .intro h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.intro-section .intro p {
+  font-size: 20px;
+  font-weight: 400;
+}
+footer {
+  height: 25px;
+  color: #ffff;
+}
+footer .container {
+  height: 100%;
+}
+footer p {
+  text-align: center;
+  margin-top: 20px;
+}

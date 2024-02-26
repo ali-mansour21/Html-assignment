@@ -1,0 +1,63 @@
+.nav-bar .header {
+  font-size: 23px;
+  font-weight: bold;
+}
+.nav-bar .nav-link {
+  color: black;
+  font-size: 17px;
+  transition: 0.3s color ease-out;
+}
+.nav-bar .nav-link:hover {
+  color: #3cb2e0;
+}
+.projects-section {
+  height: 585px;
+}
+.projects-section h1 {
+  font-size: 35px;
+  text-align: center;
+}
+.projects-section table {
+  width: 100%;
+  margin-top: 5%;
+  border-collapse: collapse;
+}
+.projects-section table a {
+  color: black;
+}
+.projects-section table th,
+.projects-section table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.projects-section table th {
+  background-color: #c1acac;
+}
+.projects-section table tr:hover {
+  background-color: #c1acac;
+}
+.projects-section table tr:hover a {
+  color: #ffff;
+}
+.cta h2 {
+  text-align: center;
+}
+.cta p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.cta ol {
+  font-size: 18px;
+}
+footer {
+  height: 62px;
+  color: #ffff;
+}
+footer .container {
+  height: 100%;
+}
+footer p {
+  text-align: center;
+  margin-top: 20px;
+}
